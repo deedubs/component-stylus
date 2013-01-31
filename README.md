@@ -7,7 +7,7 @@ Transpile stylus
 
 ````javascript
 var Builder = require('component-builder')
-  , c7tStylus = require('component-stylus;
+  , c7tStylus = require('component-stylus');
 
 
 var builder = new Builder(__dirname);
