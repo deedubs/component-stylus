@@ -5,10 +5,23 @@ Transpile stylus
 
 ## Usage
 
+
+
 ````javascript
+
+// component.json
+{
+  ...
+  "styles": [
+    "base.styl",
+    "nav.styl"
+  ]
+  ...
+}
+
+// builder.js
 var Builder = require('component-builder')
   , c7tStylus = require('component-stylus');
-
 
 var builder = new Builder(__dirname);
 
