@@ -1,6 +1,6 @@
 {
   "name": "component-stylus",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Transpiles stylus for component",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,8 @@
   "gitHead": "75a4a0c75a1ce87a70220a3d9c9f30c2d95536e5",
   "dependencies": {
     "nib": "~0.9.1",
-    "stylus": "~0.32.0"
+    "stylus": "~0.32.0",
+    "debug": "~0.7.0",
+    "batch": "~0.2.1"
   }
 }
