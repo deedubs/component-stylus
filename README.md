@@ -20,7 +20,8 @@ Transpile stylus
 }
 
 // builder.js
-var Builder = require('component-builder')
+var fs = require('fs')
+  , Builder = require('component-builder')
   , c7tStylus = require('component-stylus');
 
 var builder = new Builder(__dirname);
