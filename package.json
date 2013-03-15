@@ -1,6 +1,6 @@
 {
   "name": "component-stylus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Transpiles stylus for component",
   "main": "index.js",
   "scripts": {
