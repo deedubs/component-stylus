@@ -1,10 +1,10 @@
 {
   "name": "component-stylus",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Transpiles stylus for component",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -17,11 +17,18 @@
   "author": "Dan Williams <me@deedubs.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "75a4a0c75a1ce87a70220a3d9c9f30c2d95536e5",
   "dependencies": {
     "nib": "~0.9.1",
     "stylus": "~0.32.0",
     "debug": "~0.7.0",
-    "batch": "~0.2.1"
+    "batch": "~0.3.0"
+  },
+  "devDependencies": {
+    "component-builder": "0.6.3",
+    "mocha": "~1.8.2",
+    "expect.js": "~0.2.0"
+  },
+  "peerDependencies": {
+    "component-builder": "~0.6.0"
   }
 }
