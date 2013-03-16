@@ -1,11 +1,9 @@
 # component-stylus
+[![Build Status](https://travis-ci.org/deedubs/component-stylus.png)](https://travis-ci.org/deedubs/component-stylus)
 
-Transpile stylus
-
+Seemlessly use stylus in your components.
 
 ## Usage
-
-
 
 ````javascript
 
