@@ -36,4 +36,14 @@ describe("Component Stylus", function () {
     });
   });
   
+  it('should build stylus in a component with child into css', function (done) {
+    var builder = new Builder(__dirname + '/support/with-child-component');
+    
+    builder.use(componentStylus);
+    
+    builder.build(function (err, res) {
+      expect(res.css).to.eql('body {\n  background: #000;\n}\n');
+      done()
+    });
+  });
 })
