@@ -1,0 +1,10 @@
+{
+  "name": "test-component",
+  "version": "1.0.0",
+  "local":[
+    "child"
+  ],
+  "paths": [
+    "clients"
+  ]
+}
