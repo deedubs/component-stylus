@@ -18,8 +18,8 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "nib": "~0.9.1",
-    "stylus": "~0.32.0",
+    "nib": "~1.0.1",
+    "stylus": "~0.37.0",
     "debug": "~0.7.0",
     "batch": "~0.3.0"
   },
