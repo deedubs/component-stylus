@@ -24,7 +24,7 @@ var fs = require('fs')
 
 var builder = new Builder(__dirname);
 
-builder.use(c7tStylus);
+builder.use(c7tStylus());
 
 builder.build(function(err, res){
   if (err) throw err;
@@ -33,6 +33,6 @@ builder.build(function(err, res){
   fs.writeFileSync('public/package.css', res.css);
 });
 
-  
+
 ````
 
